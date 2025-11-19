@@ -1,0 +1,4 @@
+# Ignorar pastas de metadados e temporárias
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
