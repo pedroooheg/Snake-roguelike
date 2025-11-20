@@ -138,8 +138,9 @@ MonoBehaviour:
   cam: {fileID: 3674981313872207236}
   velocidade: 5
   SteerSpeed: 180
-  Gap: 10
+  Gap: 70
   BodyPrefab: {fileID: 7435921108551110808, guid: 10b4225eff5f26b4181456dc49b33da5, type: 3}
+  cameraLocalOffset: {x: 0, y: 15, z: -10}
 --- !u!1 &8374332323908674632
 GameObject:
   m_ObjectHideFlags: 0
@@ -167,13 +168,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8374332323908674632}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.17364816, y: 0, z: 0, w: 0.9848078}
-  m_LocalPosition: {x: 0, y: 2, z: -6.5999985}
+  m_LocalRotation: {x: 0.2588191, y: 0, z: 0, w: 0.9659258}
+  m_LocalPosition: {x: 0, y: 20, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2589631424829907572}
-  m_LocalEulerAnglesHint: {x: 20, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 30, y: 0, z: 0}
 --- !u!20 &3674981313872207236
 Camera:
   m_ObjectHideFlags: 0
@@ -285,6 +286,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7725815708718578012}
     m_Modifications:
+    - target: {fileID: 764638499621040686, guid: 49469683d15b16f4a81d38fb024e987e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 764638499621040686, guid: 49469683d15b16f4a81d38fb024e987e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 764638499621040686, guid: 49469683d15b16f4a81d38fb024e987e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 764638499621040686, guid: 49469683d15b16f4a81d38fb024e987e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9659258
+      objectReference: {fileID: 0}
+    - target: {fileID: 764638499621040686, guid: 49469683d15b16f4a81d38fb024e987e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.2588191
+      objectReference: {fileID: 0}
+    - target: {fileID: 764638499621040686, guid: 49469683d15b16f4a81d38fb024e987e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2423643620017997776, guid: 49469683d15b16f4a81d38fb024e987e, type: 3}
+      propertyPath: Gap
+      value: 70
+      objectReference: {fileID: 0}
     - target: {fileID: 5670502454889663877, guid: 49469683d15b16f4a81d38fb024e987e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.11683
