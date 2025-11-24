@@ -7,8 +7,8 @@ public class EnemySpawner : MonoBehaviour
     public GameObject enemyPrefab;    // prefab do inimigo
     public Renderer groundRenderer;   // renderer do chão (Ground_03)
 
-    public float spawnInterval = 2f;  // tempo entre spawns (segundos)
-    public int maxEnemies = 20;       // limite de inimigos na cena
+    public float spawnInterval = 5f;  // tempo entre spawns (segundos)
+    public int maxEnemies = 10;       // limite de inimigos na cena
 
     private void Start()
     {

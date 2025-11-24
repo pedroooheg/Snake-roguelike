@@ -2,23 +2,30 @@ using UnityEngine;
 
 public class EnemyFollow : MonoBehaviour
 {
-    public Transform target;   // cabeça da cobra
-    public float speed = 5f;   // velocidade do inimigo
+    public Transform target;
+    public float speed = 4f;
 
-    void Update()
+    private Rigidbody rb;
+
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+        rb.freezeRotation = true;
+    }
+
+    private void FixedUpdate()
     {
         if (target == null) return;
 
-        // direção até o alvo (cobra)
-        Vector3 dir = (target.position - transform.position).normalized;
+        Vector3 direction = (target.position - transform.position).normalized;
+        direction.y = 0;
 
-        // movimento em direção ao alvo
-        transform.position += dir * speed * Time.deltaTime;
+        Vector3 newPos = rb.position + direction * speed * Time.fixedDeltaTime;
 
-        // gira pra olhar na direção que está andando
-        if (dir != Vector3.zero)
-        {
-            transform.rotation = Quaternion.LookRotation(dir, Vector3.up);
-        }
+        // MovePosition respeita colisões
+        rb.MovePosition(newPos);
+
+        if (direction != Vector3.zero)
+            transform.rotation = Quaternion.LookRotation(direction);
     }
 }
