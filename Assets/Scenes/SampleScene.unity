@@ -446,7 +446,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6344951182888761543, guid: abee9595a15850843a624f5bf2bf8f59, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 29.9
+      value: 29.1
       objectReference: {fileID: 0}
     - target: {fileID: 6344951182888761543, guid: abee9595a15850843a624f5bf2bf8f59, type: 3}
       propertyPath: m_LocalPosition.y
@@ -568,10 +568,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemySpawner
   player: {fileID: 2038447843}
-  enemyPrefab: {fileID: 8683772969632362472, guid: 6cb7896759bbd5f489fc1af7e170b652, type: 3}
+  tankPrefab: {fileID: 8683772969632362472, guid: 7cf304b2c4e33bf4196f5e06f8b77bc3, type: 3}
+  runnerPrefab: {fileID: 8683772969632362472, guid: 5182b2e76993afa429928db28269f429, type: 3}
+  shooterPrefab: {fileID: 8683772969632362472, guid: 4b6ac4e506cc98442b700297d09d45ee, type: 3}
   groundRenderer: {fileID: 303543264}
-  spawnInterval: 5
-  maxEnemies: 10
+  baseSpawnInterval: 5
+  baseMaxEnemies: 5
+  difficultyPerSecond: 0.05
 --- !u!4 &1372096704
 Transform:
   m_ObjectHideFlags: 0
@@ -692,6 +695,55 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abee9595a15850843a624f5bf2bf8f59, type: 3}
+--- !u!1 &1646165364
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1646165366}
+  - component: {fileID: 1646165365}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1646165365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646165364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f3626ccc19dde04f8b013fc7eb6003e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  totalCoins: 0
+  coinsThisRun: 0
+  hydraLevel: 0
+  armoredBodyLevel: 0
+  plasmaEngineLevel: 0
+--- !u!4 &1646165366
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646165364}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &2013673802
 Camera:
   m_ObjectHideFlags: 0
@@ -826,7 +878,7 @@ GameObject:
   - component: {fileID: 2038447850}
   m_Layer: 0
   m_Name: cabeca
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -864,7 +916,7 @@ MonoBehaviour:
   SteerSpeed: 180
   Gap: 10
   BodyPrefab: {fileID: 7435921108551110808, guid: 10b4225eff5f26b4181456dc49b33da5, type: 3}
-  projectilePrefab: {fileID: 357110100551204196, guid: 2d159215954e4394798369fd4ae790a5, type: 3}
+  projectilePrefab: {fileID: 3919451427710741086, guid: 7126d52e1aacffa42a52098fcc688abb, type: 3}
   projectileSpeed: 75
   fireCooldown: 0.1
   cameraLocalOffset: {x: 0, y: 15, z: -10}
@@ -1053,6 +1105,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3613788542824865481, guid: ac718ad9593f37449bfda74ebad39e12, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 4972098273054831596, guid: ac718ad9593f37449bfda74ebad39e12, type: 3}
       propertyPath: Gap
       value: 20
@@ -1156,3 +1212,4 @@ SceneRoots:
   - {fileID: 404522576}
   - {fileID: 828615462}
   - {fileID: 1575546962}
+  - {fileID: 1646165366}

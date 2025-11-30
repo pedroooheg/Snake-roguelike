@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Pedro\\jogo labirinto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E063FCDF-17E3-1EE2-90BD-8306B6500F9E}|Assembly-CSharp.csproj|c:\\users\\pedro\\jogo labirinto\\assets\\scripts\\mov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E063FCDF-17E3-1EE2-90BD-8306B6500F9E}|Assembly-CSharp.csproj|c:\\users\\pedro\\jogo labirinto\\assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E063FCDF-17E3-1EE2-90BD-8306B6500F9E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E063FCDF-17E3-1EE2-90BD-8306B6500F9E}|Assembly-CSharp.csproj|C:\\Users\\Pedro\\jogo labirinto\\assets\\scripts\\enemyshooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E063FCDF-17E3-1EE2-90BD-8306B6500F9E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyshooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E063FCDF-17E3-1EE2-90BD-8306B6500F9E}|Assembly-CSharp.csproj|C:\\Users\\Pedro\\jogo labirinto\\assets\\scripts\\mov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E063FCDF-17E3-1EE2-90BD-8306B6500F9E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E063FCDF-17E3-1EE2-90BD-8306B6500F9E}|Assembly-CSharp.csproj|C:\\Users\\Pedro\\jogo labirinto\\assets\\scripts\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E063FCDF-17E3-1EE2-90BD-8306B6500F9E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E063FCDF-17E3-1EE2-90BD-8306B6500F9E}|Assembly-CSharp.csproj|C:\\Users\\Pedro\\jogo labirinto\\assets\\scripts\\enemyprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E063FCDF-17E3-1EE2-90BD-8306B6500F9E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E063FCDF-17E3-1EE2-90BD-8306B6500F9E}|Assembly-CSharp.csproj|C:\\Users\\Pedro\\jogo labirinto\\assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E063FCDF-17E3-1EE2-90BD-8306B6500F9E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E063FCDF-17E3-1EE2-90BD-8306B6500F9E}|Assembly-CSharp.csproj|C:\\Users\\Pedro\\jogo labirinto\\assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E063FCDF-17E3-1EE2-90BD-8306B6500F9E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E063FCDF-17E3-1EE2-90BD-8306B6500F9E}|Assembly-CSharp.csproj|C:\\Users\\Pedro\\jogo labirinto\\assets\\scripts\\enemyfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,8 +31,16 @@
       "RelativeMoniker": "D:0:0:{E063FCDF-17E3-1EE2-90BD-8306B6500F9E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\coinspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E063FCDF-17E3-1EE2-90BD-8306B6500F9E}|Assembly-CSharp.csproj|C:\\Users\\Pedro\\jogo labirinto\\assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E063FCDF-17E3-1EE2-90BD-8306B6500F9E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E063FCDF-17E3-1EE2-90BD-8306B6500F9E}|Assembly-CSharp.csproj|C:\\Users\\Pedro\\jogo labirinto\\assets\\scripts\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E063FCDF-17E3-1EE2-90BD-8306B6500F9E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E063FCDF-17E3-1EE2-90BD-8306B6500F9E}|Assembly-CSharp.csproj|C:\\Users\\Pedro\\jogo labirinto\\assets\\scripts\\gameovermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E063FCDF-17E3-1EE2-90BD-8306B6500F9E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameovermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E063FCDF-17E3-1EE2-90BD-8306B6500F9E}|Assembly-CSharp.csproj|C:\\Users\\Pedro\\jogo labirinto\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E063FCDF-17E3-1EE2-90BD-8306B6500F9E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,23 +50,120 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnemySpawner.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro\\jogo labirinto\\Assets\\Scripts\\EnemySpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemySpawner.cs",
+              "ToolTip": "C:\\Users\\Pedro\\jogo labirinto\\Assets\\Scripts\\EnemySpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemySpawner.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAcwHEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T02:21:08.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EnemyFollow.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro\\jogo labirinto\\Assets\\Scripts\\EnemyFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyFollow.cs",
+              "ToolTip": "C:\\Users\\Pedro\\jogo labirinto\\Assets\\Scripts\\EnemyFollow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyFollow.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAcwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T02:05:07.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnemyHealth.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro\\jogo labirinto\\Assets\\Scripts\\EnemyHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyHealth.cs",
+              "ToolTip": "C:\\Users\\Pedro\\jogo labirinto\\Assets\\Scripts\\EnemyHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyHealth.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAuwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T02:33:32.315Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "EnemyShooter.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro\\jogo labirinto\\Assets\\Scripts\\EnemyShooter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyShooter.cs",
+              "ToolTip": "C:\\Users\\Pedro\\jogo labirinto\\Assets\\Scripts\\EnemyShooter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyShooter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T18:41:38.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnemyProjectile.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro\\jogo labirinto\\Assets\\Scripts\\EnemyProjectile.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyProjectile.cs",
+              "ToolTip": "C:\\Users\\Pedro\\jogo labirinto\\Assets\\Scripts\\EnemyProjectile.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyProjectile.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T18:42:18.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "mov.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro\\jogo labirinto\\Assets\\Scripts\\mov.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\mov.cs",
+              "ToolTip": "C:\\Users\\Pedro\\jogo labirinto\\Assets\\Scripts\\mov.cs",
+              "RelativeToolTip": "Assets\\Scripts\\mov.cs",
+              "ViewState": "AgIAAOAAAAAAAAAAAAAiwP4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T02:09:16.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Projectile.cs",
               "DocumentMoniker": "C:\\Users\\Pedro\\jogo labirinto\\Assets\\Scripts\\Projectile.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Projectile.cs",
               "ToolTip": "C:\\Users\\Pedro\\jogo labirinto\\Assets\\Scripts\\Projectile.cs",
               "RelativeToolTip": "Assets\\Scripts\\Projectile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T00:23:52.618Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
+              "Title": "GameOverMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro\\jogo labirinto\\Assets\\Scripts\\GameOverMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameOverMenu.cs",
+              "ToolTip": "C:\\Users\\Pedro\\jogo labirinto\\Assets\\Scripts\\GameOverMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameOverMenu.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwBcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T00:54:34.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro\\jogo labirinto\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\Pedro\\jogo labirinto\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAUwGkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T16:08:40.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "CoinSpawner.cs",
               "DocumentMoniker": "C:\\Users\\Pedro\\jogo labirinto\\Assets\\Scripts\\CoinSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CoinSpawner.cs",
@@ -59,55 +172,6 @@
               "ViewState": "AgIAABsAAAAAAAAAAAAowAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-23T23:45:34.541Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EnemyHealth.cs",
-              "DocumentMoniker": "C:\\Users\\Pedro\\jogo labirinto\\Assets\\Scripts\\EnemyHealth.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyHealth.cs",
-              "ToolTip": "C:\\Users\\Pedro\\jogo labirinto\\Assets\\Scripts\\EnemyHealth.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EnemyHealth.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T02:33:32.315Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EnemySpawner.cs",
-              "DocumentMoniker": "C:\\Users\\Pedro\\jogo labirinto\\Assets\\Scripts\\EnemySpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemySpawner.cs",
-              "ToolTip": "C:\\Users\\Pedro\\jogo labirinto\\Assets\\Scripts\\EnemySpawner.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EnemySpawner.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAIwD4AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T02:21:08.756Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "mov.cs",
-              "DocumentMoniker": "C:\\Users\\Pedro\\jogo labirinto\\Assets\\Scripts\\mov.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\mov.cs",
-              "ToolTip": "C:\\Users\\Pedro\\jogo labirinto\\Assets\\Scripts\\mov.cs",
-              "RelativeToolTip": "Assets\\Scripts\\mov.cs",
-              "ViewState": "AgIAAJUAAAAAAAAAAAAUwKgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T02:09:16.031Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EnemyFollow.cs",
-              "DocumentMoniker": "C:\\Users\\Pedro\\jogo labirinto\\Assets\\Scripts\\EnemyFollow.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyFollow.cs",
-              "ToolTip": "C:\\Users\\Pedro\\jogo labirinto\\Assets\\Scripts\\EnemyFollow.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EnemyFollow.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T02:05:07.686Z"
             }
           ]
         }

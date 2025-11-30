@@ -3,7 +3,10 @@ using UnityEngine;
 public class EnemyFollow : MonoBehaviour
 {
     public Transform target;
-    public float speed = 4f;
+
+    [Header("Velocidade")]
+    public float baseSpeed = 4f;   // velocidade inicial
+    private float speed;           // velocidade com dificuldade aplicada
 
     private Rigidbody rb;
 
@@ -11,6 +14,17 @@ public class EnemyFollow : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
+
+        // se o spawner não chamou ApplyDifficulty a tempo, usa baseSpeed
+        if (speed <= 0f)
+            speed = baseSpeed;
+    }
+
+    // chamado pelo EnemySpawner
+    public void ApplyDifficulty(float diff)
+    {
+        // quanto maior a dificuldade, mais rápido
+        speed = baseSpeed * (1f + diff * 0.5f);
     }
 
     private void FixedUpdate()
@@ -22,7 +36,6 @@ public class EnemyFollow : MonoBehaviour
 
         Vector3 newPos = rb.position + direction * speed * Time.fixedDeltaTime;
 
-        // MovePosition respeita colisões
         rb.MovePosition(newPos);
 
         if (direction != Vector3.zero)

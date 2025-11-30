@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -1880457268850443113}
   - component: {fileID: -412395461829774226}
   - component: {fileID: 8373793355719128504}
+  - component: {fileID: 2190702259569063278}
   m_Layer: 0
   m_Name: Inimigo
   m_TagString: Enemy
@@ -154,7 +155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyFollow
   target: {fileID: 0}
-  speed: 5
+  baseSpeed: 4
 --- !u!114 &8373793355719128504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -167,3 +168,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea34992e69589af4ca657cba299ecfc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
+  baseHealth: 3
+--- !u!114 &2190702259569063278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8683772969632362472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 133d38faf0de2854d8b53e9a89d55508, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyShooter
+  projectilePrefab: {fileID: 4924951457917582392, guid: 54e74e4b7de260c44b76b09330dbbe67, type: 3}
+  baseCooldown: 3
+  projectileSpeed: 20
