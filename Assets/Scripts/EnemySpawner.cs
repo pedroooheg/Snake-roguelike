@@ -85,29 +85,39 @@ public class EnemySpawner : MonoBehaviour
             shooter.Init(player, difficulty);
         }
     }
-
     GameObject EscolherPrefabPorDificuldade()
     {
-        // No começo só Runner, depois libera Tank, depois Shooter
-        float r = Random.value;
+        // pesos base
+        float wRunner = 1f;
+        float wTank = 1f;
+        float wShooter = 1f;
 
-        if (difficulty < 1.5f)
-        {
-            // só Runner
-            return runnerPrefab;
-        }
-        else if (difficulty < 3f)
-        {
-            // Runner mais comum, Tank às vezes
-            if (r < 0.7f) return runnerPrefab;
-            else return tankPrefab;
-        }
-        else
-        {
-            // todos aparecem
-            if (r < 0.5f) return runnerPrefab;
-            else if (r < 0.8f) return tankPrefab;
-            else return shooterPrefab;
-        }
+        // aumenta peso conforme dificuldade
+        // (ajusta esses valores como quiser)
+        wRunner = Mathf.Max(0.5f, 2.0f - difficulty * 0.3f); // runner forte no início, cai depois
+        wTank = 0.5f + difficulty * 0.2f;                  // tank vai ficando mais comum
+        wShooter = 0.2f + Mathf.Max(0, difficulty - 2f) * 0.3f; // shooter só começa a pesar depois
+
+        // ignora tipos que não têm prefab
+        float total = 0f;
+        if (runnerPrefab != null) total += wRunner;
+        if (tankPrefab != null) total += wTank;
+        if (shooterPrefab != null) total += wShooter;
+
+        if (total <= 0f) return null;
+
+        float r = Random.value * total;
+
+        if (runnerPrefab != null && r < wRunner) return runnerPrefab;
+        r -= wRunner;
+
+        if (tankPrefab != null && r < wTank) return tankPrefab;
+        r -= wTank;
+
+        if (shooterPrefab != null && r < wShooter) return shooterPrefab;
+
+        // fallback
+        return runnerPrefab ?? tankPrefab ?? shooterPrefab;
     }
+
 }

@@ -9,6 +9,8 @@ TagManager:
   - Coin
   - Parede
   - Wall
+  - Undefined
+  - Obstacle
   layers:
   - Default
   - TransparentFX

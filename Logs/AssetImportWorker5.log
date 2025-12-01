@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.2/respin/6000.2.8f1-e4064264ae96' branch; Version is '6000.2.8f1 (c9992ac36c34) revision 13211946'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Pedro" at "2025-11-30T19:58:30.2741097Z"
 OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'pt' Physical Memory: 16215 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-11-30T19:58:30Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Pedro" at "2025-12-01T17:06:53.9983334Z"
+Date: 2025-12-01T17:06:53Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.2.8f1\Editor\Unity.exe
@@ -17,7 +17,7 @@ C:/Users/Pedro/jogo labirinto
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-58731
+61586
 -licensingIpc
 LicenseClient-Pedro
 -job-worker-count
@@ -65,29 +65,29 @@ C:/Users/Pedro/jogo labirinto
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2964]  Target information:
+Player connection [13532]  Target information:
 
-Player connection [2964]  * "[IP] 192.168.15.75 [Port] 0 [Flags] 2 [Guid] 2972540134 [EditorId] 2972540134 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JD623SS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [13532]  * "[IP] 192.168.15.75 [Port] 0 [Flags] 2 [Guid] 205571411 [EditorId] 205571411 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JD623SS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [2964]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2972540134 [EditorId] 2972540134 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JD623SS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [13532]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 205571411 [EditorId] 205571411 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JD623SS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [2964] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [2964] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13532] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [13532] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 1356, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 19272, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.3+a4e98f1
-  Session Id:              8a6c4178ad764016bac5788e84848b8e
-  Correlation Id:          3457338648cacc57238e4f7a25984cc9
-  External correlation Id: 6946778098793258922
+  Session Id:              7f65042ec08d407ba103d4bcfab3d56c
+  Correlation Id:          e1ebfeab346ab94ab6a1a48347083136
+  External correlation Id: 1079055129546881933
   Machine Id:              HbJxGWfXWd4JrQpf9RlipL2ZJZU=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Pedro" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Pedro-notifications" at "2025-11-30T19:58:30.3076486Z"
-[Licensing::Module] Licensing Background thread has ended after 0.03s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Pedro" (connect: 0.00s, validation: 0.00s, handshake: 0.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Pedro-notifications" at "2025-12-01T17:06:54.0464737Z"
+[Licensing::Module] Licensing Background thread has ended after 0.05s
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
@@ -95,7 +95,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.2.8f1 (c9992ac36c34)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/Resources/UnitySubsystems
@@ -111,45 +111,45 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002319 seconds.
-- Loaded All Assemblies, in  0.386 seconds
+Registered in 0.002044 seconds.
+- Loaded All Assemblies, in  0.340 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.368 seconds
-Domain Reload Profiling: 752ms
-	BeginReloadAssembly (128ms)
+- Finished resetting the current domain, in  0.306 seconds
+Domain Reload Profiling: 644ms
+	BeginReloadAssembly (112ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (158ms)
-		LoadAssemblies (127ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (143ms)
+		LoadAssemblies (110ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (154ms)
-			TypeCache.Refresh (152ms)
-				TypeCache.ScanAssembly (139ms)
+		AnalyzeDomain (140ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (128ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (369ms)
+	FinalizeReload (307ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (321ms)
+		SetupLoadedEditorAssemblies (269ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (55ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (70ms)
-			ProcessInitializeOnLoadAttributes (137ms)
-			ProcessInitializeOnLoadMethodAttributes (53ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (108ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -164,8 +164,8 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.881 seconds
-Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.624 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -173,984 +173,1708 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.943 seconds
-Domain Reload Profiling: 1819ms
-	BeginReloadAssembly (192ms)
+- Finished resetting the current domain, in  0.593 seconds
+Domain Reload Profiling: 1213ms
+	BeginReloadAssembly (156ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (591ms)
-		LoadAssemblies (438ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (393ms)
+		LoadAssemblies (291ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (261ms)
-			TypeCache.Refresh (197ms)
-				TypeCache.ScanAssembly (183ms)
-			BuildScriptInfoCaches (49ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (943ms)
+		AnalyzeDomain (186ms)
+			TypeCache.Refresh (135ms)
+				TypeCache.ScanAssembly (124ms)
+			BuildScriptInfoCaches (37ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (593ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (740ms)
+		SetupLoadedEditorAssemblies (430ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (214ms)
-			ProcessInitializeOnLoadAttributes (445ms)
-			ProcessInitializeOnLoadMethodAttributes (62ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (278ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6158 unused Assets / (4.1 MB). Loaded Objects now: 6868.
+Memory consumption went from 136.3 MB to 132.2 MB.
+Total: 6.058800 ms (FindLiveObjects: 0.482000 ms CreateObjectMapping: 0.442400 ms MarkObjects: 3.584900 ms  DeleteObjects: 1.547000 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6148 unused Assets / (4.4 MB). Loaded Objects now: 6869.
+Memory consumption went from 134.4 MB to 130.0 MB.
+Total: 7.095800 ms (FindLiveObjects: 0.508500 ms CreateObjectMapping: 0.470100 ms MarkObjects: 4.140000 ms  DeleteObjects: 1.975700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.713 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.748 seconds
+Domain Reload Profiling: 1459ms
+	BeginReloadAssembly (198ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (432ms)
+		LoadAssemblies (361ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (139ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (748ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (584ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (151ms)
+			ProcessInitializeOnLoadAttributes (364ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6155 unused Assets / (4.5 MB). Loaded Objects now: 6884.
+Memory consumption went from 140.4 MB to 135.9 MB.
+Total: 7.478900 ms (FindLiveObjects: 0.531600 ms CreateObjectMapping: 0.480100 ms MarkObjects: 4.201200 ms  DeleteObjects: 2.264400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 6970.134416 seconds.
+  path: Assets/Scripts/ObstacleSpawner.cs
+  artifactKey: Guid(4c76c9dd95bc05d499176a6c5a672534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ObstacleSpawner.cs using Guid(4c76c9dd95bc05d499176a6c5a672534) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ecd69ca8acb6c33c953d65cb153b62f') in 0.0200499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6148 unused Assets / (4.4 MB). Loaded Objects now: 6886.
+Memory consumption went from 141.4 MB to 137.0 MB.
+Total: 6.755200 ms (FindLiveObjects: 0.593900 ms CreateObjectMapping: 0.515900 ms MarkObjects: 3.576400 ms  DeleteObjects: 2.068200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.743 seconds
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.713 seconds
+Domain Reload Profiling: 1457ms
+	BeginReloadAssembly (208ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (460ms)
+		LoadAssemblies (363ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (199ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (169ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (714ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (559ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (167ms)
+			ProcessInitializeOnLoadAttributes (330ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6155 unused Assets / (4.7 MB). Loaded Objects now: 6888.
+Memory consumption went from 141.0 MB to 136.3 MB.
+Total: 10.024200 ms (FindLiveObjects: 0.677100 ms CreateObjectMapping: 0.699900 ms MarkObjects: 5.520100 ms  DeleteObjects: 3.125600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6148 unused Assets / (4.3 MB). Loaded Objects now: 6888.
+Memory consumption went from 141.2 MB to 136.9 MB.
+Total: 8.639600 ms (FindLiveObjects: 0.563000 ms CreateObjectMapping: 0.610600 ms MarkObjects: 4.930900 ms  DeleteObjects: 2.533600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.051436 seconds.
+  path: Assets/Scripts/ObstacleSpawner.cs
+  artifactKey: Guid(4c76c9dd95bc05d499176a6c5a672534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ObstacleSpawner.cs using Guid(4c76c9dd95bc05d499176a6c5a672534) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1769df5adc094fc9d44cab5b7e6f295') in 0.0188848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.695 seconds
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.671 seconds
+Domain Reload Profiling: 1366ms
+	BeginReloadAssembly (211ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (412ms)
+		LoadAssemblies (344ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (136ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (671ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (527ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (144ms)
+			ProcessInitializeOnLoadAttributes (323ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6155 unused Assets / (4.3 MB). Loaded Objects now: 6890.
+Memory consumption went from 141.1 MB to 136.8 MB.
+Total: 7.851900 ms (FindLiveObjects: 0.564900 ms CreateObjectMapping: 0.738900 ms MarkObjects: 4.532100 ms  DeleteObjects: 2.014800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.662 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.600 seconds
+Domain Reload Profiling: 1261ms
+	BeginReloadAssembly (190ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (407ms)
+		LoadAssemblies (339ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (157ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (134ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (600ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (471ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (299ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6155 unused Assets / (4.6 MB). Loaded Objects now: 6892.
+Memory consumption went from 141.1 MB to 136.5 MB.
+Total: 8.236000 ms (FindLiveObjects: 0.537100 ms CreateObjectMapping: 0.584800 ms MarkObjects: 4.634100 ms  DeleteObjects: 2.478500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.661 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.638 seconds
+Domain Reload Profiling: 1300ms
+	BeginReloadAssembly (193ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (400ms)
+		LoadAssemblies (334ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (161ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (137ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (638ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (498ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (125ms)
+			ProcessInitializeOnLoadAttributes (310ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6155 unused Assets / (4.3 MB). Loaded Objects now: 6894.
+Memory consumption went from 141.1 MB to 136.8 MB.
+Total: 7.762000 ms (FindLiveObjects: 0.588500 ms CreateObjectMapping: 0.491000 ms MarkObjects: 4.327300 ms  DeleteObjects: 2.354000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6148 unused Assets / (4.5 MB). Loaded Objects now: 6894.
+Memory consumption went from 141.2 MB to 136.7 MB.
+Total: 10.381900 ms (FindLiveObjects: 0.717600 ms CreateObjectMapping: 0.591800 ms MarkObjects: 6.229300 ms  DeleteObjects: 2.841800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.650 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.628 seconds
+Domain Reload Profiling: 1277ms
+	BeginReloadAssembly (185ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (397ms)
+		LoadAssemblies (333ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (153ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (130ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (629ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (504ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (125ms)
+			ProcessInitializeOnLoadAttributes (324ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6155 unused Assets / (4.3 MB). Loaded Objects now: 6896.
+Memory consumption went from 141.1 MB to 136.8 MB.
+Total: 6.176300 ms (FindLiveObjects: 0.483600 ms CreateObjectMapping: 0.446500 ms MarkObjects: 3.505000 ms  DeleteObjects: 1.740400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.643 seconds
+Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.667 seconds
+Domain Reload Profiling: 1311ms
+	BeginReloadAssembly (191ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (387ms)
+		LoadAssemblies (314ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (162ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (139ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (667ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (533ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (124ms)
+			ProcessInitializeOnLoadAttributes (327ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6155 unused Assets / (4.5 MB). Loaded Objects now: 6898.
+Memory consumption went from 141.1 MB to 136.6 MB.
+Total: 8.011000 ms (FindLiveObjects: 0.648300 ms CreateObjectMapping: 0.568800 ms MarkObjects: 4.370700 ms  DeleteObjects: 2.422200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6148 unused Assets / (4.2 MB). Loaded Objects now: 6898.
+Memory consumption went from 141.3 MB to 137.1 MB.
+Total: 10.031700 ms (FindLiveObjects: 0.979600 ms CreateObjectMapping: 0.883900 ms MarkObjects: 5.578100 ms  DeleteObjects: 2.588400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 839.669723 seconds.
+  path: Assets/Scripts/ObstacleSpawner.cs
+  artifactKey: Guid(4c76c9dd95bc05d499176a6c5a672534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ObstacleSpawner.cs using Guid(4c76c9dd95bc05d499176a6c5a672534) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94fb92f869f697fbc27c5c850913f482') in 0.076048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.665 seconds
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.623 seconds
+Domain Reload Profiling: 1286ms
+	BeginReloadAssembly (200ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (393ms)
+		LoadAssemblies (339ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (153ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (129ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (623ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (496ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (132ms)
+			ProcessInitializeOnLoadAttributes (308ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6155 unused Assets / (4.2 MB). Loaded Objects now: 6900.
+Memory consumption went from 141.2 MB to 137.0 MB.
+Total: 6.270100 ms (FindLiveObjects: 0.501600 ms CreateObjectMapping: 0.465400 ms MarkObjects: 3.614800 ms  DeleteObjects: 1.687200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.687 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.666 seconds
+Domain Reload Profiling: 1353ms
+	BeginReloadAssembly (187ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (430ms)
+		LoadAssemblies (351ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (168ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (146ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (666ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (525ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (127ms)
+			ProcessInitializeOnLoadAttributes (327ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6157 unused Assets / (5.1 MB). Loaded Objects now: 6866.
-Memory consumption went from 135.9 MB to 130.9 MB.
-Total: 6.737800 ms (FindLiveObjects: 0.476500 ms CreateObjectMapping: 0.436600 ms MarkObjects: 3.700500 ms  DeleteObjects: 2.122100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 22467.216381 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Yellow/RMB_29.prefab
-  artifactKey: Guid(528188697e14bb64195ec3e87b5a4677) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Yellow/RMB_29.prefab using Guid(528188697e14bb64195ec3e87b5a4677) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a57a010e8baba67155659b70e1704c6') in 0.2331228 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_24.fbx
-  artifactKey: Guid(eba88bf835206f54085f1bf6057b25f5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_24.fbx using Guid(eba88bf835206f54085f1bf6057b25f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd6ff6baa5ad117ef1eac6fead66989a9') in 0.0756134 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Pink/RMB_38.prefab
-  artifactKey: Guid(f0e6755b837528841b6402fb7f3ae9c5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Pink/RMB_38.prefab using Guid(f0e6755b837528841b6402fb7f3ae9c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '61e5e1b2b34d430e914c2a1e5e72b318') in 0.0205505 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Grey/RMB_15.prefab
-  artifactKey: Guid(440bfe9edebb30349b612ce252ee6d07) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Grey/RMB_15.prefab using Guid(440bfe9edebb30349b612ce252ee6d07) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'da5beb5064e5beb3c3257369d044f9d0') in 0.019311 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Red/RMB_11.prefab
-  artifactKey: Guid(aae30b76e6ff8444bb62eed7fb10ad0b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Red/RMB_11.prefab using Guid(aae30b76e6ff8444bb62eed7fb10ad0b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f43136bc3785b9dbaf7fb8e2f07ae16f') in 0.021333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Red/RMB_24.prefab
-  artifactKey: Guid(dad3335fae6e308458ca955686a95fb0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Red/RMB_24.prefab using Guid(dad3335fae6e308458ca955686a95fb0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3ff51be38392839aae2e413e8b2f1727') in 0.0185173 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Materials/RocketsPalletteYellow.mat
-  artifactKey: Guid(565175fc23adbb8479f5ec980a7227a5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Materials/RocketsPalletteYellow.mat using Guid(565175fc23adbb8479f5ec980a7227a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e8d44c5c2184b4097d8cebefe5a1e95') in 0.0170137 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Orange/RMB_24.prefab
-  artifactKey: Guid(2fedbae15f7ac4049b92d5fc515c0c57) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Orange/RMB_24.prefab using Guid(2fedbae15f7ac4049b92d5fc515c0c57) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0227adc549560a5367fdfa3bb6385d89') in 0.0207663 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Orange/RMB_05.prefab
-  artifactKey: Guid(b67e958d2d883534fb0f1272ecd7a7eb) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Orange/RMB_05.prefab using Guid(b67e958d2d883534fb0f1272ecd7a7eb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'af698fac823e6e65b6ff7fec6e84253f') in 0.0198853 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Yellow/RMB_09.prefab
-  artifactKey: Guid(1add85bacee389d44a065fc76f6ef7e0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Yellow/RMB_09.prefab using Guid(1add85bacee389d44a065fc76f6ef7e0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '85f918f5c92d9b4e2c39434ecbbaf5d2') in 0.0200599 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Red/RMB_33.prefab
-  artifactKey: Guid(6fbe99d45d50c9e4fa56f96aa16a7750) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Red/RMB_33.prefab using Guid(6fbe99d45d50c9e4fa56f96aa16a7750) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5bd7b834ce96f009cf6b048392a0cb84') in 0.0249023 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Pink/RMB_23.prefab
-  artifactKey: Guid(9d5ef09574f5c1641a6f39941009566c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Pink/RMB_23.prefab using Guid(9d5ef09574f5c1641a6f39941009566c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f2d9bc3f142d43c161898d9d47e38243') in 0.0252678 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Yellow/RMB_08.prefab
-  artifactKey: Guid(078859d87c145e044a2ca714910a0cfe) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Yellow/RMB_08.prefab using Guid(078859d87c145e044a2ca714910a0cfe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '22161b32f1cd0280651b827c152b9e05') in 0.0230474 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_07.fbx
-  artifactKey: Guid(088c8d767d941a34bb6c16212534670e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_07.fbx using Guid(088c8d767d941a34bb6c16212534670e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4c14794cc81b0b5e63a322fc59e42505') in 0.0321576 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Pink/RMB_17.prefab
-  artifactKey: Guid(051aea1f19c5bee4b8ce158fb919cf74) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Pink/RMB_17.prefab using Guid(051aea1f19c5bee4b8ce158fb919cf74) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4a975edbafa88a9609521f9566496652') in 0.0188674 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Pink/RMB_04.prefab
-  artifactKey: Guid(07981939ba5555b4b81b1a83adc93907) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Pink/RMB_04.prefab using Guid(07981939ba5555b4b81b1a83adc93907) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '53e1429bb91ded94cfb625e23705e6ac') in 0.0194191 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Orange/RMB_31.prefab
-  artifactKey: Guid(7c4cfe0d01cecee48a78a3520c50acc0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Orange/RMB_31.prefab using Guid(7c4cfe0d01cecee48a78a3520c50acc0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc2015cc071154ca21fec933ed01d884') in 0.0219868 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_27.prefab
-  artifactKey: Guid(5faf4c200782c2b4896f6880505d8b46) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_27.prefab using Guid(5faf4c200782c2b4896f6880505d8b46) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a7afb3a4498633809cb886a9ad4a6e23') in 0.0209769 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Red/RMB_23.prefab
-  artifactKey: Guid(66b243b3d07079748810bbc129ec4a3a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Red/RMB_23.prefab using Guid(66b243b3d07079748810bbc129ec4a3a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c7c3f765a07ad2d63aee7e7fb5fc142d') in 0.0198102 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Grey/RMB_30.prefab
-  artifactKey: Guid(87ad774bf2d1ad54396865cd946ec820) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Grey/RMB_30.prefab using Guid(87ad774bf2d1ad54396865cd946ec820) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '35d99f314c0369a900dd3acba6e422ca') in 0.0183398 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_01.prefab
-  artifactKey: Guid(03b209060638ee64cb87027776beb49d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_01.prefab using Guid(03b209060638ee64cb87027776beb49d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7c61fa914799bdcefaf944e38208bda1') in 0.0189507 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Orange/RMB_35.prefab
-  artifactKey: Guid(31ec5f6e3daa3af418c2d537453f78de) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Orange/RMB_35.prefab using Guid(31ec5f6e3daa3af418c2d537453f78de) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a359f97586ba20827cede8d994c2f37a') in 0.0188445 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_38.fbx
-  artifactKey: Guid(386d22e8c4e4f8147aa20330133906b5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_38.fbx using Guid(386d22e8c4e4f8147aa20330133906b5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0ccb4faa5c0e837d06a3fc5bf79dfb6d') in 0.0308398 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Yellow/RMB_19.prefab
-  artifactKey: Guid(87fad27e5446fe74ba1c689ce283cd1f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Yellow/RMB_19.prefab using Guid(87fad27e5446fe74ba1c689ce283cd1f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f172e38a1338a267a1115e3d3e507f4e') in 0.0206471 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Red/RMB_41.prefab
-  artifactKey: Guid(c9fe7e19ad05cd74d82823a17497c6c5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Red/RMB_41.prefab using Guid(c9fe7e19ad05cd74d82823a17497c6c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e30ea8f38dccd503aa674fc73246ccb2') in 0.0196538 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_12.prefab
-  artifactKey: Guid(cbfb57fcc59cb784187be8ad86b92efd) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_12.prefab using Guid(cbfb57fcc59cb784187be8ad86b92efd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '48ef114f2163bcfb4193419b043ccd2d') in 0.0207066 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Red/RMB_07.prefab
-  artifactKey: Guid(b0221c57b2a7d5540a29e40e3173b0f3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Red/RMB_07.prefab using Guid(b0221c57b2a7d5540a29e40e3173b0f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '506ad09fd7b1ee7e2b742290f2359f92') in 0.0216982 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_35.prefab
-  artifactKey: Guid(d64ce13e5df56584f8efe6250e2d2bb4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_35.prefab using Guid(d64ce13e5df56584f8efe6250e2d2bb4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ecfda4a7b4d3c99787c35c6e28f6486b') in 0.0205444 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Blue/RMB_28.prefab
-  artifactKey: Guid(bcdc151bb6daa6c4aae96c5e434c1e4b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Blue/RMB_28.prefab using Guid(bcdc151bb6daa6c4aae96c5e434c1e4b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '91204255d6859a4e4ddd597ecc0f334e') in 0.0209967 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Orange/RMB_06.prefab
-  artifactKey: Guid(53eef8116e7dabf4fa7cf28fca4a9c24) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Orange/RMB_06.prefab using Guid(53eef8116e7dabf4fa7cf28fca4a9c24) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f46bb73a1df5a693800b0557d3ec0eae') in 0.0180693 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Grey/RMB_09.prefab
-  artifactKey: Guid(41518750c49d5384eba5ff5f176ee847) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Grey/RMB_09.prefab using Guid(41518750c49d5384eba5ff5f176ee847) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cfdad32f757bd6eced7e1b38805f0ee7') in 0.0192281 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Red/RMB_09.prefab
-  artifactKey: Guid(be83c68433b660b408ad3d9d60dddb4b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Red/RMB_09.prefab using Guid(be83c68433b660b408ad3d9d60dddb4b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '593634298963a3dd3d90562b88375403') in 0.0194458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_02.fbx
-  artifactKey: Guid(6840cf7de7b43654389b3f1e7ce612cc) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_02.fbx using Guid(6840cf7de7b43654389b3f1e7ce612cc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'addc71c91525418bf3fa4ec9185b0386') in 0.0285979 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_11.prefab
-  artifactKey: Guid(83e7f89763b3cb7468d36c0233cc6e42) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_11.prefab using Guid(83e7f89763b3cb7468d36c0233cc6e42) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6eb61d14ff2958e9cda9ac8934799514') in 0.0194603 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Red/RMB_27.prefab
-  artifactKey: Guid(d8f1c5f29e0b49a449ac618de164cdae) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Red/RMB_27.prefab using Guid(d8f1c5f29e0b49a449ac618de164cdae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3bf43c771c505566101879da70cad678') in 0.0193771 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Red/RMB_15.prefab
-  artifactKey: Guid(bb28966aef50b44409c88bc4521ede18) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Red/RMB_15.prefab using Guid(bb28966aef50b44409c88bc4521ede18) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2e3d6a2aeff26660aea58415467b0169') in 0.0188777 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Yellow/RMB_03.prefab
-  artifactKey: Guid(eb2bc16dd6031be48a67f5f33a1615b5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Yellow/RMB_03.prefab using Guid(eb2bc16dd6031be48a67f5f33a1615b5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b07ac1418add613e57475c21457aa981') in 0.019484 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_02.prefab
-  artifactKey: Guid(c235aaf6fc3945240beb028846895ddc) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_02.prefab using Guid(c235aaf6fc3945240beb028846895ddc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a40d269aa478e11f2ce214562c1afc05') in 0.0226763 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Yellow/RMB_06.prefab
-  artifactKey: Guid(ea43f7add0fe5f74788a5be72218f310) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Yellow/RMB_06.prefab using Guid(ea43f7add0fe5f74788a5be72218f310) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '606a0e1716d853c3b5630914d1a9a9b1') in 0.0181211 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Blue/RMB_29.prefab
-  artifactKey: Guid(ce80bcfee963e2e4796f95695e18542c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Blue/RMB_29.prefab using Guid(ce80bcfee963e2e4796f95695e18542c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cb575bc19876f996c0f475b8c3504ec8') in 0.0182203 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_40.prefab
-  artifactKey: Guid(4c0f834054f299b43b00d568d8ac7446) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_40.prefab using Guid(4c0f834054f299b43b00d568d8ac7446) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e3c29fc8a8f0567932214c08949a83e') in 0.019719 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Grey/RMB_07.prefab
-  artifactKey: Guid(8fa25de294e26314c870316db8acc3d6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Grey/RMB_07.prefab using Guid(8fa25de294e26314c870316db8acc3d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c11210db755a54bf4217bd9bc9829305') in 0.0193349 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Orange/RMB_18.prefab
-  artifactKey: Guid(50e8e613898bfd542af72f16e883c8a9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Orange/RMB_18.prefab using Guid(50e8e613898bfd542af72f16e883c8a9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '99896de245dae64a44208676e598f5e6') in 0.0239444 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Pink/RMB_27.prefab
-  artifactKey: Guid(717ee5f8946fbb94fb7305332b702310) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Pink/RMB_27.prefab using Guid(717ee5f8946fbb94fb7305332b702310) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cd4ec8082297b8f6a1810fa8c7968645') in 0.0193109 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Blue/RMB_20.prefab
-  artifactKey: Guid(940f3ebd82bb29147973ff68933eda13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Blue/RMB_20.prefab using Guid(940f3ebd82bb29147973ff68933eda13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6ed22dad31efc70f615043c2cb9deec3') in 0.0202886 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_34.fbx
-  artifactKey: Guid(4e568fa667e0994408cdccbcbcae96c8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_34.fbx using Guid(4e568fa667e0994408cdccbcbcae96c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c13da83358e6c645a4d52032cc07811') in 0.0307974 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Red/RMB_40.prefab
-  artifactKey: Guid(740d62156d8ab7947bfa78e895a4fa51) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Red/RMB_40.prefab using Guid(740d62156d8ab7947bfa78e895a4fa51) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'be1c63705d9483790e1ad86cf1bdd1e4') in 0.0196346 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Yellow/RMB_40.prefab
-  artifactKey: Guid(d72babe297c612b4591c8f2f4111f56f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Yellow/RMB_40.prefab using Guid(d72babe297c612b4591c8f2f4111f56f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5c8e5681df0cca4f1c14b89e296360e7') in 0.0210317 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Orange/RMB_23.prefab
-  artifactKey: Guid(9c428d0e0bcfa6e4aa7ee590464751b7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Orange/RMB_23.prefab using Guid(9c428d0e0bcfa6e4aa7ee590464751b7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '20e9e90f35e4d7b4c6195cc87b664a8d') in 0.0176348 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Blue/RMB_07.prefab
-  artifactKey: Guid(896c85e80e2cb0644b20291ba8f1faa9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Blue/RMB_07.prefab using Guid(896c85e80e2cb0644b20291ba8f1faa9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '966a02f50233169b50de177d325ca2d6') in 0.0178961 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Orange/RMB_26.prefab
-  artifactKey: Guid(f182f92e8d7865f4090f3b245ce97fd9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Orange/RMB_26.prefab using Guid(f182f92e8d7865f4090f3b245ce97fd9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b6b940a7d8f8209d6132f6e5ebc0d228') in 0.0181044 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Textures/RocketsPalletteGreen.png
-  artifactKey: Guid(eef049362fc106349a741296bc0c4e4e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Textures/RocketsPalletteGreen.png using Guid(eef049362fc106349a741296bc0c4e4e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5d25e694a31946bd9fa91a33c1b4fd0a') in 0.0634901 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_15.fbx
-  artifactKey: Guid(f74382061aee24e48982801f0bec805f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_15.fbx using Guid(f74382061aee24e48982801f0bec805f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '79dfd2484d215497bd23faac82db09cc') in 0.0327928 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Grey/RMB_41.prefab
-  artifactKey: Guid(833f363b371c0724abf4168d229807bf) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Grey/RMB_41.prefab using Guid(833f363b371c0724abf4168d229807bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd05d543e10578ba556a689af3bc9afa7') in 0.0195467 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Orange/RMB_14.prefab
-  artifactKey: Guid(54696f3eb955a6e4a83b5771641662ac) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Orange/RMB_14.prefab using Guid(54696f3eb955a6e4a83b5771641662ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ad668e495aaa1922516c60808ca95871') in 0.0207705 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs
-  artifactKey: Guid(901b9791d0cb1574690369ffc92aa698) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs using Guid(901b9791d0cb1574690369ffc92aa698) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4f126a80a1b514c3987ddef828210b74') in 0.0126832 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Pink/RMB_32.prefab
-  artifactKey: Guid(aca4d606b3f86264e9806695a173138b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Pink/RMB_32.prefab using Guid(aca4d606b3f86264e9806695a173138b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '25a3662d994944c0d778dc26463ab949') in 0.0172985 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Orange/RMB_08.prefab
-  artifactKey: Guid(5d38f0da1bcb7e94da74b6e2a5377037) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Orange/RMB_08.prefab using Guid(5d38f0da1bcb7e94da74b6e2a5377037) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '243e66e51538c9edb24af3b0bee02902') in 0.0202621 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Orange/RMB_10.prefab
-  artifactKey: Guid(be73e5a3d7d1bf54a8ec2251600f3662) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Orange/RMB_10.prefab using Guid(be73e5a3d7d1bf54a8ec2251600f3662) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b5746ccefb570cf4c43979057c7de18') in 0.0187618 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Grey/RMB_19.prefab
-  artifactKey: Guid(b57117a00a9db944da4a37c9f41683b5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Grey/RMB_19.prefab using Guid(b57117a00a9db944da4a37c9f41683b5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4d03d7db0ba668f17017f7ca6fa51fab') in 0.0158268 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Yellow/RMB_18.prefab
-  artifactKey: Guid(98553d273d65d584bb580d7c7b5bbb08) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Yellow/RMB_18.prefab using Guid(98553d273d65d584bb580d7c7b5bbb08) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd80b60cfc966768e14dc678a0133ac98') in 0.0190506 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_22.prefab
-  artifactKey: Guid(b1e94725b6f73e045bb89d74ae1f452b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_22.prefab using Guid(b1e94725b6f73e045bb89d74ae1f452b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2e1badb73efc7ca68f2ed262f648750f') in 0.0210901 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Yellow/RMB_10.prefab
-  artifactKey: Guid(8d28c7aedd3f31c45aca7551151d9bdf) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Yellow/RMB_10.prefab using Guid(8d28c7aedd3f31c45aca7551151d9bdf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '607e591ad6c5a016191d56a2feb6c779') in 0.0201273 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Yellow/RMB_31.prefab
-  artifactKey: Guid(d086c67be82d6d647a75fc87a4eb6e11) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Yellow/RMB_31.prefab using Guid(d086c67be82d6d647a75fc87a4eb6e11) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '398aafe9f384ee896f32f40d8f87fbe0') in 0.0241895 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_40.fbx
-  artifactKey: Guid(afd9271f78114ea449b8d0b8c0d941f0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_40.fbx using Guid(afd9271f78114ea449b8d0b8c0d941f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73a04856d09362a1baa247d95b0eb301') in 0.0316587 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_23.fbx
-  artifactKey: Guid(5015f023017ed794d977fc0c5f7ebe19) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_23.fbx using Guid(5015f023017ed794d977fc0c5f7ebe19) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '16533e536f3a18817db2cc606c237d1e') in 0.0300674 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models
-  artifactKey: Guid(d9eb5437277dd3b4ab1514076794f5b2) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models using Guid(d9eb5437277dd3b4ab1514076794f5b2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b61de8b11f258518e21f3c54a015047f') in 0.0132413 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_04.fbx
-  artifactKey: Guid(118d5cd0e90bbb54aaef5ff8649c8aa7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_04.fbx using Guid(118d5cd0e90bbb54aaef5ff8649c8aa7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c54f9b4ed99774e5b98e3da3a00a19d') in 0.0328357 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Pink/RMB_24.prefab
-  artifactKey: Guid(42bac2fb869f49940a1d409cad625d47) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Pink/RMB_24.prefab using Guid(42bac2fb869f49940a1d409cad625d47) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '02a9e6c2cb167fb5e4b98ddc8039695d') in 0.0178762 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Yellow/RMB_27.prefab
-  artifactKey: Guid(785271c6c791fcb46add3e25e7a285b7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Yellow/RMB_27.prefab using Guid(785271c6c791fcb46add3e25e7a285b7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a4abe43ae8feae83fa4dda8708f86ba4') in 0.0192334 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Orange/RMB_16.prefab
-  artifactKey: Guid(c419273ec6b58e84ab49eea87400d9b3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Orange/RMB_16.prefab using Guid(c419273ec6b58e84ab49eea87400d9b3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0f8d20378b2ad98d919215d473393388') in 0.01897 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs
-  artifactKey: Guid(4f98a94fc62c368439a921ab171b4705) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs using Guid(4f98a94fc62c368439a921ab171b4705) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7db393df9a82c80cd993e822a56dcff2') in 0.0113572 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_32.prefab
-  artifactKey: Guid(1b318c366e4ea474b92b0a38784bcfc5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_32.prefab using Guid(1b318c366e4ea474b92b0a38784bcfc5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '48ee740dcc34548640ce9e59c896de8d') in 0.0196754 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.821236 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Textures/RocketsPalletteGrey.png
-  artifactKey: Guid(9dacb1981f327434bbbff57b0a025335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Textures/RocketsPalletteGrey.png using Guid(9dacb1981f327434bbbff57b0a025335) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e17ee4167738e63993e01dbf6ba7321') in 0.0431908 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Textures/RocketsPallettePink.png
-  artifactKey: Guid(da92151212311ef43b05edc7d7fac370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Textures/RocketsPallettePink.png using Guid(da92151212311ef43b05edc7d7fac370) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da2f0d93fc17297a821e8c73c573954a') in 0.03022 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.041763 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Blue/RMB_03.prefab
-  artifactKey: Guid(dc4d2fd4bb4f09b4fb18a1f4d749d848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Blue/RMB_03.prefab using Guid(dc4d2fd4bb4f09b4fb18a1f4d749d848) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b79b194c92f682ff14029b8f443feec7') in 0.4598648 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Blue/RMB_06.prefab
-  artifactKey: Guid(244d21f0d15f2024ea5e2a52bf45a22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Blue/RMB_06.prefab using Guid(244d21f0d15f2024ea5e2a52bf45a22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '597a54b06854945c42c927e74371ae63') in 0.0227864 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Blue/RMB_26.prefab
-  artifactKey: Guid(148348498ed578e4f99da579e4facae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Blue/RMB_26.prefab using Guid(148348498ed578e4f99da579e4facae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '900ca5d053e8bee21e3f49516015aea2') in 0.0216353 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Blue/RMB_25.prefab
-  artifactKey: Guid(6c88a2d7032886d4b8e46448bdbf44b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Blue/RMB_25.prefab using Guid(6c88a2d7032886d4b8e46448bdbf44b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a6e233ad0e59ec63ec082a34256f16d') in 0.0287288 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Blue/RMB_37.prefab
-  artifactKey: Guid(13699439dc8bfaa45ad3f693e16dc6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Blue/RMB_37.prefab using Guid(13699439dc8bfaa45ad3f693e16dc6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51a76403fe72af6d2ddad96b5ebd16d4') in 0.0204099 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Blue/RMB_18.prefab
-  artifactKey: Guid(210a5180ad930b643918ccb01e9ef0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Blue/RMB_18.prefab using Guid(210a5180ad930b643918ccb01e9ef0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99749ebb7bc5b8bedb79e712ad1b7009') in 0.0167327 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Blue/RMB_33.prefab
-  artifactKey: Guid(05d85ba6b278c2e4f94950c326bc31fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Blue/RMB_33.prefab using Guid(05d85ba6b278c2e4f94950c326bc31fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28757ad0def73fd5e3a1b70c6322503c') in 0.0165309 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Blue/RMB_31.prefab
-  artifactKey: Guid(947d7bbac68afeb4b811251fa64689f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Blue/RMB_31.prefab using Guid(947d7bbac68afeb4b811251fa64689f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7e8bfdb5204b1dedbb5f78c863ac174') in 0.0162968 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Blue/RMB_21.prefab
-  artifactKey: Guid(d09b04d5d9836624ba6d05b713a19815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Blue/RMB_21.prefab using Guid(d09b04d5d9836624ba6d05b713a19815) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67d9eef89ceb03648d6da70f55c4fa3e') in 0.0166351 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Blue/RMB_11.prefab
-  artifactKey: Guid(b352e45c278d9a84cb288acbacaf6748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Blue/RMB_11.prefab using Guid(b352e45c278d9a84cb288acbacaf6748) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '671dc32ccc47174eca142957fecf73a4') in 0.0154101 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Blue/RMB_35.prefab
-  artifactKey: Guid(4eca73f1ed89e5c42bdce9826e821466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Blue/RMB_35.prefab using Guid(4eca73f1ed89e5c42bdce9826e821466) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25cb1c59b240e6f9e69ad7c85679e775') in 0.014286 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Blue/RMB_36.prefab
-  artifactKey: Guid(ed44c7d5860f46847a271c6e51751eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Blue/RMB_36.prefab using Guid(ed44c7d5860f46847a271c6e51751eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c395583ff831294bfc175215eb74c8df') in 0.0130473 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.043634 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_03.fbx
-  artifactKey: Guid(8636b4806cf43c941a1caa22a66cf33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_03.fbx using Guid(8636b4806cf43c941a1caa22a66cf33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '486d2ab0f679f26a6415cf732961cd58') in 0.1043526 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_36.fbx
-  artifactKey: Guid(042662d0a01f0b349aa80c88dca238ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_36.fbx using Guid(042662d0a01f0b349aa80c88dca238ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97e213b1210a5b4ce84cef77384999e3') in 0.0359283 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_24.fbx
-  artifactKey: Guid(eba88bf835206f54085f1bf6057b25f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_24.fbx using Guid(eba88bf835206f54085f1bf6057b25f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfa0f229b6de64ff26d2b266a2929d1d') in 0.0282226 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_28.fbx
-  artifactKey: Guid(d9a0416f39caece439802fa8ba19b82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_28.fbx using Guid(d9a0416f39caece439802fa8ba19b82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e49c1fb9a29d2f2ec3a745a808011913') in 0.0452236 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_08.fbx
-  artifactKey: Guid(8c6b9ef825f60834eb12531982bcd7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_08.fbx using Guid(8c6b9ef825f60834eb12531982bcd7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f49496421b0735a1ff13fe73ab07a7b') in 0.0414671 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_06.fbx
-  artifactKey: Guid(899450ea848278442b9f13fdf0fb5c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_06.fbx using Guid(899450ea848278442b9f13fdf0fb5c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4de4dc056c83b6ac571e5b941fef540') in 0.0288366 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_19.fbx
-  artifactKey: Guid(becc7190f10974146a213eb357ca2a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_19.fbx using Guid(becc7190f10974146a213eb357ca2a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a043c5addf96f36e31617261212e0c3') in 0.0250829 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_13.fbx
-  artifactKey: Guid(15f916550f169534292bfda685babab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_13.fbx using Guid(15f916550f169534292bfda685babab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd0e14f47bcbeff7a4f6b269de474e62') in 0.0287256 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_20.fbx
-  artifactKey: Guid(7c1dc7b8d6ab7cb4288169b08f6b889b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_20.fbx using Guid(7c1dc7b8d6ab7cb4288169b08f6b889b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0687942127d73a5d3bb436a0e71ef27d') in 0.0251659 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_27.fbx
-  artifactKey: Guid(2c574587b6b3ed842a431e7417edb49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_27.fbx using Guid(2c574587b6b3ed842a431e7417edb49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '262c7b8c88cac40f05d909b083452c5c') in 0.0267213 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_16.fbx
-  artifactKey: Guid(c55d3227e1e80664b85bbbab7f559dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_16.fbx using Guid(c55d3227e1e80664b85bbbab7f559dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df8907f9ac0740da0fbf3b3548d08e22') in 0.0251059 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_25.fbx
-  artifactKey: Guid(b0f5f9e0193e4b847b073274d1e59cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_25.fbx using Guid(b0f5f9e0193e4b847b073274d1e59cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ac5be4eaa140804e1e29685ee5eae29') in 0.0275415 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_31.fbx
-  artifactKey: Guid(d02278f3f2ac6914f8e470b20377d6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Models/RMB_31.fbx using Guid(d02278f3f2ac6914f8e470b20377d6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e3c7bfd708a840a957d40cd469048a5') in 0.0277871 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.333101 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Materials/RocketsPalletteBlue.mat
-  artifactKey: Guid(dadefef0edf68504b971d5e8b275586d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Materials/RocketsPalletteBlue.mat using Guid(dadefef0edf68504b971d5e8b275586d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79bdb02f8407295bb821865d24aae164') in 0.0248016 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Materials/RocketsPalletteOrange.mat
-  artifactKey: Guid(b1fe464b75e438e43a558970be8913c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Materials/RocketsPalletteOrange.mat using Guid(b1fe464b75e438e43a558970be8913c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7194a9d7db8094028622cc136cdda45c') in 0.0183517 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Materials/RocketsPalletteGreen.mat
-  artifactKey: Guid(effb278466e36474989bd577f63840b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Materials/RocketsPalletteGreen.mat using Guid(effb278466e36474989bd577f63840b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f635e9717357b030a35b49fe8f29bea1') in 0.0185388 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.916946 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_03.prefab
-  artifactKey: Guid(f91016aacf71bad4c9524be56c5334d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_03.prefab using Guid(f91016aacf71bad4c9524be56c5334d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e39bd8fdc21e5e08130240cc0697dea9') in 0.0241689 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_27.prefab
-  artifactKey: Guid(5faf4c200782c2b4896f6880505d8b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_27.prefab using Guid(5faf4c200782c2b4896f6880505d8b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11a3216219e4df0577b6c203412e8979') in 0.0186671 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_23.prefab
-  artifactKey: Guid(b65935cf4b611344c879e3a8a73c3b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_23.prefab using Guid(b65935cf4b611344c879e3a8a73c3b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61dcb91c0ac0e77c030d8eb8c056f653') in 0.0201632 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_37.prefab
-  artifactKey: Guid(ab747769363f46147865f59e1f4a6dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_37.prefab using Guid(ab747769363f46147865f59e1f4a6dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9aa36b0e6ce18a890a16c0b4f4cfb190') in 0.0191339 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_16.prefab
-  artifactKey: Guid(bc1101b41da57f84ba9cde8e9687a233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_16.prefab using Guid(bc1101b41da57f84ba9cde8e9687a233) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6dc0a5415f26f41cc24c410c4dd588f5') in 0.0231002 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_09.prefab
-  artifactKey: Guid(7ec01c78ebfae0742826436dca8f63b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_09.prefab using Guid(7ec01c78ebfae0742826436dca8f63b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b1abc3f8615679c5fff43c03b121a68') in 0.0215703 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_14.prefab
-  artifactKey: Guid(b5563400a9fd9234798aba024219dadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_14.prefab using Guid(b5563400a9fd9234798aba024219dadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76aa11eebf26172446e417270543d778') in 0.0174247 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_12.prefab
-  artifactKey: Guid(cbfb57fcc59cb784187be8ad86b92efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_12.prefab using Guid(cbfb57fcc59cb784187be8ad86b92efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a58cd8b1db2536a16bd4be818d445fb6') in 0.0185319 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_04.prefab
-  artifactKey: Guid(a624bdc98bdef8c44974819ed7ad0ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_04.prefab using Guid(a624bdc98bdef8c44974819ed7ad0ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e294f079e2cc2d3111790d3bd686052') in 0.0181311 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_19.prefab
-  artifactKey: Guid(5ead9ebea2f2f2248ae31fd321cba977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_19.prefab using Guid(5ead9ebea2f2f2248ae31fd321cba977) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69bafee59630f006a94617d3c9a3ebf2') in 0.0189515 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_05.prefab
-  artifactKey: Guid(31f36004d72a0114cb5b5fede9e253f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_05.prefab using Guid(31f36004d72a0114cb5b5fede9e253f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae0ecefb2b9c3d550803d3c0222e9d0b') in 0.0175625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_24.prefab
-  artifactKey: Guid(8420760d74d844c4b9be3daa572ce892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_24.prefab using Guid(8420760d74d844c4b9be3daa572ce892) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8ef2293e0fc394f4a3f1d0cf49d1ad2') in 0.0169397 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_29.prefab
-  artifactKey: Guid(945589b08fc6e4e4f95aab01725305eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_29.prefab using Guid(945589b08fc6e4e4f95aab01725305eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80e5c81e8d0f5a1a4d74c0aee7c060a5') in 0.0151283 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.904085 seconds.
-  path: Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_40.prefab
-  artifactKey: Guid(4c0f834054f299b43b00d568d8ac7446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BTM_Assets/BTM_Rockets_Missiles_Bombs/Prefabs/Green/RMB_40.prefab using Guid(4c0f834054f299b43b00d568d8ac7446) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5128d522b5e5370d3eb7743120e3952') in 0.0229501 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Unloading 6155 unused Assets / (4.4 MB). Loaded Objects now: 6902.
+Memory consumption went from 141.2 MB to 136.8 MB.
+Total: 7.595300 ms (FindLiveObjects: 0.557400 ms CreateObjectMapping: 0.546300 ms MarkObjects: 4.284100 ms  DeleteObjects: 2.206300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.639 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.688 seconds
+Domain Reload Profiling: 1327ms
+	BeginReloadAssembly (190ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (380ms)
+		LoadAssemblies (319ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (131ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (689ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (551ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (132ms)
+			ProcessInitializeOnLoadAttributes (349ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6155 unused Assets / (4.4 MB). Loaded Objects now: 6904.
+Memory consumption went from 141.3 MB to 136.8 MB.
+Total: 7.859900 ms (FindLiveObjects: 0.526400 ms CreateObjectMapping: 0.522600 ms MarkObjects: 4.373500 ms  DeleteObjects: 2.436000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.635 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.679 seconds
+Domain Reload Profiling: 1313ms
+	BeginReloadAssembly (182ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (380ms)
+		LoadAssemblies (321ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (149ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (125ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (680ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (540ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (138ms)
+			ProcessInitializeOnLoadAttributes (330ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6155 unused Assets / (4.5 MB). Loaded Objects now: 6906.
+Memory consumption went from 141.3 MB to 136.8 MB.
+Total: 8.296400 ms (FindLiveObjects: 0.570400 ms CreateObjectMapping: 0.607300 ms MarkObjects: 4.582200 ms  DeleteObjects: 2.535300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6148 unused Assets / (4.4 MB). Loaded Objects now: 6906.
+Memory consumption went from 141.5 MB to 137.1 MB.
+Total: 11.812200 ms (FindLiveObjects: 1.871800 ms CreateObjectMapping: 3.619500 ms MarkObjects: 4.307100 ms  DeleteObjects: 2.012600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.625 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.672 seconds
+Domain Reload Profiling: 1297ms
+	BeginReloadAssembly (183ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (375ms)
+		LoadAssemblies (304ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (129ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (672ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (536ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (137ms)
+			ProcessInitializeOnLoadAttributes (345ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6155 unused Assets / (4.2 MB). Loaded Objects now: 6908.
+Memory consumption went from 141.4 MB to 137.2 MB.
+Total: 6.576200 ms (FindLiveObjects: 0.504000 ms CreateObjectMapping: 0.520900 ms MarkObjects: 3.648900 ms  DeleteObjects: 1.901500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.631 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.626 seconds
+Domain Reload Profiling: 1258ms
+	BeginReloadAssembly (182ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (379ms)
+		LoadAssemblies (309ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (134ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (627ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (505ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (129ms)
+			ProcessInitializeOnLoadAttributes (314ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6155 unused Assets / (4.2 MB). Loaded Objects now: 6910.
+Memory consumption went from 141.4 MB to 137.2 MB.
+Total: 6.190700 ms (FindLiveObjects: 0.490000 ms CreateObjectMapping: 0.437500 ms MarkObjects: 3.530100 ms  DeleteObjects: 1.731700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.654 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.689 seconds
+Domain Reload Profiling: 1343ms
+	BeginReloadAssembly (197ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (387ms)
+		LoadAssemblies (325ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (156ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (135ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (689ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (551ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (125ms)
+			ProcessInitializeOnLoadAttributes (350ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6155 unused Assets / (4.6 MB). Loaded Objects now: 6912.
+Memory consumption went from 141.5 MB to 136.8 MB.
+Total: 8.069300 ms (FindLiveObjects: 0.714900 ms CreateObjectMapping: 0.644100 ms MarkObjects: 3.902000 ms  DeleteObjects: 2.807200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6148 unused Assets / (4.1 MB). Loaded Objects now: 6912.
+Memory consumption went from 141.6 MB to 137.5 MB.
+Total: 15.010600 ms (FindLiveObjects: 0.557900 ms CreateObjectMapping: 0.516500 ms MarkObjects: 9.956100 ms  DeleteObjects: 3.977700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.674 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.688 seconds
+Domain Reload Profiling: 1362ms
+	BeginReloadAssembly (193ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (405ms)
+		LoadAssemblies (340ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (156ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (133ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (689ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (546ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (358ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6155 unused Assets / (4.4 MB). Loaded Objects now: 6914.
+Memory consumption went from 141.5 MB to 137.1 MB.
+Total: 7.962900 ms (FindLiveObjects: 0.641100 ms CreateObjectMapping: 0.606400 ms MarkObjects: 4.404900 ms  DeleteObjects: 2.309100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.637 seconds
+Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.632 seconds
+Domain Reload Profiling: 1268ms
+	BeginReloadAssembly (185ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (381ms)
+		LoadAssemblies (322ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (135ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (632ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (494ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (121ms)
+			ProcessInitializeOnLoadAttributes (311ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6155 unused Assets / (4.1 MB). Loaded Objects now: 6916.
+Memory consumption went from 141.5 MB to 137.3 MB.
+Total: 5.858500 ms (FindLiveObjects: 0.477200 ms CreateObjectMapping: 0.439900 ms MarkObjects: 3.394900 ms  DeleteObjects: 1.546000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.630 seconds
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.637 seconds
+Domain Reload Profiling: 1266ms
+	BeginReloadAssembly (178ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (374ms)
+		LoadAssemblies (319ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (129ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (637ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (504ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (129ms)
+			ProcessInitializeOnLoadAttributes (307ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6155 unused Assets / (4.5 MB). Loaded Objects now: 6918.
+Memory consumption went from 141.5 MB to 137.1 MB.
+Total: 8.323200 ms (FindLiveObjects: 0.666900 ms CreateObjectMapping: 0.647600 ms MarkObjects: 4.522800 ms  DeleteObjects: 2.484600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6148 unused Assets / (4.4 MB). Loaded Objects now: 6918.
+Memory consumption went from 141.7 MB to 137.3 MB.
+Total: 8.553000 ms (FindLiveObjects: 0.629300 ms CreateObjectMapping: 0.764600 ms MarkObjects: 5.247100 ms  DeleteObjects: 1.910500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.660 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.653 seconds
+Domain Reload Profiling: 1313ms
+	BeginReloadAssembly (180ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (402ms)
+		LoadAssemblies (319ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (170ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (144ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (654ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (516ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (130ms)
+			ProcessInitializeOnLoadAttributes (333ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6155 unused Assets / (4.2 MB). Loaded Objects now: 6920.
+Memory consumption went from 141.5 MB to 137.4 MB.
+Total: 6.996600 ms (FindLiveObjects: 0.519500 ms CreateObjectMapping: 0.456200 ms MarkObjects: 4.205900 ms  DeleteObjects: 1.813900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.638 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.630 seconds
+Domain Reload Profiling: 1267ms
+	BeginReloadAssembly (190ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (383ms)
+		LoadAssemblies (322ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (153ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (133ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (630ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (490ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (128ms)
+			ProcessInitializeOnLoadAttributes (298ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6155 unused Assets / (4.6 MB). Loaded Objects now: 6922.
+Memory consumption went from 141.6 MB to 136.9 MB.
+Total: 8.243700 ms (FindLiveObjects: 0.654100 ms CreateObjectMapping: 0.866300 ms MarkObjects: 4.229600 ms  DeleteObjects: 2.492500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.613 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.598 seconds
+Domain Reload Profiling: 1211ms
+	BeginReloadAssembly (183ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (365ms)
+		LoadAssemblies (310ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (127ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (599ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (466ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (293ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6155 unused Assets / (5.1 MB). Loaded Objects now: 6924.
+Memory consumption went from 141.6 MB to 136.5 MB.
+Total: 9.463700 ms (FindLiveObjects: 0.555200 ms CreateObjectMapping: 0.603500 ms MarkObjects: 4.776700 ms  DeleteObjects: 3.526600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6148 unused Assets / (4.4 MB). Loaded Objects now: 6924.
+Memory consumption went from 141.8 MB to 137.4 MB.
+Total: 8.186300 ms (FindLiveObjects: 0.518400 ms CreateObjectMapping: 0.470000 ms MarkObjects: 5.260500 ms  DeleteObjects: 1.936400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.615 seconds
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.638 seconds
+Domain Reload Profiling: 1252ms
+	BeginReloadAssembly (172ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (367ms)
+		LoadAssemblies (302ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (148ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (126ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (639ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (512ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (319ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6155 unused Assets / (4.4 MB). Loaded Objects now: 6926.
+Memory consumption went from 141.7 MB to 137.3 MB.
+Total: 6.436800 ms (FindLiveObjects: 0.500800 ms CreateObjectMapping: 0.447100 ms MarkObjects: 3.550200 ms  DeleteObjects: 1.937600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.621 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.692 seconds
+Domain Reload Profiling: 1313ms
+	BeginReloadAssembly (174ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (379ms)
+		LoadAssemblies (300ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (158ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (140ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (692ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (549ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (332ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6155 unused Assets / (4.3 MB). Loaded Objects now: 6928.
+Memory consumption went from 141.7 MB to 137.4 MB.
+Total: 6.534300 ms (FindLiveObjects: 0.514100 ms CreateObjectMapping: 0.488700 ms MarkObjects: 3.724600 ms  DeleteObjects: 1.805800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1035.773202 seconds.
+  path: Assets/Prefabs/Rock_04 Variant.prefab
+  artifactKey: Guid(39fee4a14df1bbc449916f75698f1c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rock_04 Variant.prefab using Guid(39fee4a14df1bbc449916f75698f1c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '980ea545885f25cee3851ace3a22bc45') in 0.6593379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.679 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.633 seconds
+Domain Reload Profiling: 1312ms
+	BeginReloadAssembly (220ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (22ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (394ms)
+		LoadAssemblies (332ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (151ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (130ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (634ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (509ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (316ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6156 unused Assets / (4.5 MB). Loaded Objects now: 6961.
+Memory consumption went from 147.3 MB to 142.8 MB.
+Total: 7.846400 ms (FindLiveObjects: 0.563500 ms CreateObjectMapping: 0.543200 ms MarkObjects: 4.208500 ms  DeleteObjects: 2.529600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6148 unused Assets / (4.4 MB). Loaded Objects now: 6961.
+Memory consumption went from 147.3 MB to 142.9 MB.
+Total: 8.104000 ms (FindLiveObjects: 0.888300 ms CreateObjectMapping: 0.849400 ms MarkObjects: 4.210400 ms  DeleteObjects: 2.154600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.642 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.633 seconds
+Domain Reload Profiling: 1274ms
+	BeginReloadAssembly (182ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (377ms)
+		LoadAssemblies (312ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (151ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (129ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (633ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (494ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (128ms)
+			ProcessInitializeOnLoadAttributes (301ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6155 unused Assets / (4.4 MB). Loaded Objects now: 6963.
+Memory consumption went from 147.2 MB to 142.8 MB.
+Total: 6.394600 ms (FindLiveObjects: 0.489500 ms CreateObjectMapping: 0.447800 ms MarkObjects: 3.648300 ms  DeleteObjects: 1.808100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.659 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.707 seconds
+Domain Reload Profiling: 1366ms
+	BeginReloadAssembly (186ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (403ms)
+		LoadAssemblies (336ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (156ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (135ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (708ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (556ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (348ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6155 unused Assets / (4.4 MB). Loaded Objects now: 6965.
+Memory consumption went from 147.3 MB to 142.8 MB.
+Total: 7.231400 ms (FindLiveObjects: 0.606400 ms CreateObjectMapping: 0.549600 ms MarkObjects: 3.880800 ms  DeleteObjects: 2.193600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.655 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.608 seconds
+Domain Reload Profiling: 1261ms
+	BeginReloadAssembly (208ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (369ms)
+		LoadAssemblies (323ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (148ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (128ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (608ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (479ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (307ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6155 unused Assets / (4.2 MB). Loaded Objects now: 6967.
+Memory consumption went from 147.3 MB to 143.1 MB.
+Total: 8.128600 ms (FindLiveObjects: 0.591600 ms CreateObjectMapping: 0.583500 ms MarkObjects: 4.636800 ms  DeleteObjects: 2.315100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6148 unused Assets / (4.7 MB). Loaded Objects now: 6967.
+Memory consumption went from 147.5 MB to 142.8 MB.
+Total: 9.928900 ms (FindLiveObjects: 0.626800 ms CreateObjectMapping: 0.847500 ms MarkObjects: 5.544100 ms  DeleteObjects: 2.909100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.664 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.636 seconds
+Domain Reload Profiling: 1301ms
+	BeginReloadAssembly (176ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (414ms)
+		LoadAssemblies (327ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (167ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (143ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (636ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (498ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (124ms)
+			ProcessInitializeOnLoadAttributes (316ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6155 unused Assets / (4.4 MB). Loaded Objects now: 6969.
+Memory consumption went from 147.3 MB to 142.9 MB.
+Total: 7.080300 ms (FindLiveObjects: 0.554100 ms CreateObjectMapping: 0.606000 ms MarkObjects: 3.783100 ms  DeleteObjects: 2.135600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.647 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.634 seconds
+Domain Reload Profiling: 1280ms
+	BeginReloadAssembly (179ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (392ms)
+		LoadAssemblies (315ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (161ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (140ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (634ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (503ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (309ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6155 unused Assets / (4.3 MB). Loaded Objects now: 6971.
+Memory consumption went from 147.4 MB to 143.1 MB.
+Total: 7.376800 ms (FindLiveObjects: 0.576300 ms CreateObjectMapping: 0.621900 ms MarkObjects: 3.926800 ms  DeleteObjects: 2.250400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.636 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.607 seconds
+Domain Reload Profiling: 1245ms
+	BeginReloadAssembly (178ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (389ms)
+		LoadAssemblies (309ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (139ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (608ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (470ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (312ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6155 unused Assets / (4.2 MB). Loaded Objects now: 6973.
+Memory consumption went from 147.3 MB to 143.2 MB.
+Total: 7.844200 ms (FindLiveObjects: 0.572300 ms CreateObjectMapping: 0.500200 ms MarkObjects: 4.568100 ms  DeleteObjects: 2.202000 ms)
+
+Prepare: number of updated asset objects reloaded= 0

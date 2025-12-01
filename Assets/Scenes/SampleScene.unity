@@ -538,6 +538,58 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &954265212
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 954265214}
+  - component: {fileID: 954265213}
+  m_Layer: 0
+  m_Name: ObstaculosSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &954265213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954265212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c76c9dd95bc05d499176a6c5a672534, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstacleSpawner
+  obstaclePrefabs:
+  - {fileID: 5848983539572511668, guid: 8c8638100adb40849be559b492373b0b, type: 3}
+  - {fileID: 6258333422796534271, guid: 39fee4a14df1bbc449916f75698f1c01, type: 3}
+  - {fileID: 8631701817570321309, guid: 2047ad13b4798b249aa2423f19a9cf8e, type: 3}
+  quantidade: 20
+  groundRenderer: {fileID: 303543264}
+  player: {fileID: 2038447843}
+  distanciaMinimaDoPlayer: 5
+--- !u!4 &954265214
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954265212}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 30.66, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1372096702
 GameObject:
   m_ObjectHideFlags: 0
@@ -568,12 +620,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemySpawner
   player: {fileID: 2038447843}
-  tankPrefab: {fileID: 8683772969632362472, guid: 7cf304b2c4e33bf4196f5e06f8b77bc3, type: 3}
-  runnerPrefab: {fileID: 8683772969632362472, guid: 5182b2e76993afa429928db28269f429, type: 3}
-  shooterPrefab: {fileID: 8683772969632362472, guid: 4b6ac4e506cc98442b700297d09d45ee, type: 3}
+  tankPrefab: {fileID: 19107769032419556, guid: 0d239343c35d0d2458087dc7da6a00f1, type: 3}
+  runnerPrefab: {fileID: 19107769032419556, guid: 4c05f4d6af149ee4bb56935775da9b02, type: 3}
+  shooterPrefab: {fileID: 19107769032419556, guid: 576cd7ffc7d3c634dbc455a441aa4b05, type: 3}
   groundRenderer: {fileID: 303543264}
   baseSpawnInterval: 5
-  baseMaxEnemies: 5
+  baseMaxEnemies: 8
   difficultyPerSecond: 0.05
 --- !u!4 &1372096704
 Transform:
@@ -1213,3 +1265,4 @@ SceneRoots:
   - {fileID: 828615462}
   - {fileID: 1575546962}
   - {fileID: 1646165366}
+  - {fileID: 954265214}

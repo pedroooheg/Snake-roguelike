@@ -214,7 +214,7 @@ public class mov : MonoBehaviour
                 GameManager.Instance.AddCoins(1);
         }
         // parede ou inimigo
-        else if (other.CompareTag("Wall") || other.CompareTag("Enemy"))
+        else if (other.CompareTag("Wall") || other.CompareTag("Enemy") || other.CompareTag("Obstacle"))
         {
             // se tiver blindado, gasta um "escudo"
             if (armorLevel > 0 && BodyParts.Count > 0)
