@@ -5,7 +5,9 @@ using UnityEngine.SceneManagement;
 public class mov : MonoBehaviour
 {
     public Camera cam;
+    // This speed is little too high, It'd greate to decrease it
     public float velocidade = 20.0f;
+    // Also too high
     public float SteerSpeed = 360.0f;
 
     public int Gap = 10;
